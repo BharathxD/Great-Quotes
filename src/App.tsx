@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, Navigate } from "react-router-dom";
 import { Header } from "./components/Header";
 import Products from "./pages/Products";
 import Home from "./pages/Home";
@@ -11,8 +11,10 @@ const App = () => {
     <Fragment>
       <Header />
       <Routes>
+        <Route path="/" element={<Navigate to="/home" />} />
+        <Route path="*" element={<Navigate to="/home" />} />
         <Route path="/home" element={<Home />} />
-        <Route path="/products" element={<Products />}/>
+        <Route path="/products" element={<Products />} />
         <Route path="products/:id" element={<ProductDetail />} />
       </Routes>
     </Fragment>
