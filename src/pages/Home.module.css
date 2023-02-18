@@ -1,11 +1,11 @@
 .home {
-    background-color: rgb(45, 45, 45);
+  background-color: rgb(45, 45, 45);
 }
 
 .home h1 {
-    margin: 0;
+  margin: 0;
 }
 
 .home p {
-    text-align: justify;
+  text-align: justify;
 }
