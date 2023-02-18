@@ -1,0 +1,33 @@
+.products {
+  background-color: rgb(45, 45, 45);
+}
+
+.product-header {
+  margin: 0;
+  color: #fff;
+}
+
+.products p {  
+  text-align: justify;
+  margin-bottom: 25px;
+}
+
+.products-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.products-container ul li {
+  background-color: rgb(29, 29, 29);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.product-header:hover {
+  color: #b3b3b3;
+}
+
+.products-container ul li:last-of-type {
+  margin-bottom: 0;
+}
