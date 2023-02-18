@@ -21,6 +21,14 @@ export const Header = () => {
             Products
           </NavLink>
         </li>
+        <li>
+          <NavLink
+            className={(isActive) => (isActive ? classes.active : undefined)}
+            to="quotes"
+          >
+            Quotes
+          </NavLink>
+        </li>
       </ul>
     </nav>
   );

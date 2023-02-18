@@ -4,6 +4,7 @@ import classes from "./Comments.module.css";
 import NewCommentForm from "./NewCommentForm";
 
 const Comments = () => {
+  console.log("Comments component rendered")
   const [isAddingComment, setIsAddingComment] = useState(false);
 
   const startAddCommentHandler = () => {

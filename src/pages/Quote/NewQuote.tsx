@@ -3,9 +3,9 @@ import classes from "./NewQuote.module.css";
 
 const NewQuote: React.FC = () => {
   return (
-    <Fragment>
-      <p>New Quote Page Example</p>
-    </Fragment>
+    <main>
+      <h1>New Quote Page Example</h1>
+    </main>
   );
 };
 
